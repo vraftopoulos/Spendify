@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:padding="10dp"
+    android:background="@android:color/white">
+
+    <!-- Εικονίδιο Εφαρμογής / Logo -->
+    <ImageView
+        android:id="@+id/widget_icon"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:src="@mipmap/ic_launcher"
+        android:contentDescription="App Logo" />
+
+    <TextView
+        android:id="@+id/widget_total"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="0.00 €"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#00796B"
+        android:layout_marginStart="8dp" />
+
+    <!-- Κουμπί + για άμεση καταχώρηση -->
+    <ImageButton
+        android:id="@+id/widget_add_btn"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:background="#0F172A"
+        android:src="@android:drawable/ic_input_add"
+        android:tint="@android:color/white"
+        android:contentDescription="Add Transaction" />
+</LinearLayout>

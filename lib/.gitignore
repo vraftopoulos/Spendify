@@ -1,0 +1,14 @@
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+
+# Android Keys & Credentials (ΜΗΝ ανεβούν ποτέ!)
+*.jks
+*.keystore
+key.properties
+
+# Environment variables
+.env
